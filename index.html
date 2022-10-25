@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Electric Bill</title>
+        <link rel="stylesheet" href="css/project.css" />
+    </head>
+    <body>
+        <div id="page">
+            <h1>Homelco</h1>
+            <h2>Electric Billing</h2>
+            
+            <label for="consumed">Number of kWh consumed: </label>
+            <input type="number" value="" id="number">
+
+            <label for="rates">Latest rate per kWh: </label>  
+            <input type="numbers" value="" id="numbers">
+
+            <input type="submit" value="calculate" onclick="return electricbilling()">
+           
+            <span id="result"></span>
+            
+        </div>
+    </body>
+    <script src="js/project.js"></script>
+</html>
